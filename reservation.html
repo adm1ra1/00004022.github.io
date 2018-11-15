@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SUIZ BOOKING</title>
+  <link rel="icon" href="images/reserve.ico" type="image/x-icon">
+		<!--links to css and js-->
+		<link rel="stylesheet" href="css/reservation.css" type="text/css"/>
+		<link rel="stylesheet" href="css/navigation.css" type="text/css"/>
+		<link rel="stylesheet" href="css/navbar.css" type="text/css" />
+		<link rel="stylesheet" href="css/style3.css" type="text/css"/>
+		
+  <div id="navigation"> <!--navigation-->
+			 <ul>
+			    <li><a href="home.html" >Home</a></li>
+				<li class="dropdown"><a href="menu.html"  class="dropdown-link">Menu</a>
+											<div class="dropdown-content">
+																				<a href="drinks.html">Drinks</a>
+																				<a href="pizza.html">Pizza</a>
+											</div>	
+				</li>
+		        <li><a href="reservation.html" class="current">Booking</a></li>
+				<li><a href="about.html">About</a></li>
+	    	 </ul>
+	
+		</div>
+  
+  </head>
+<body>
+
+<table>
+
+<tr>
+	<td id="content_r">	
+	
+    <main class="container">
+        
+        <section class="left">
+            <h1>Reserving a table</h1>
+
+            
+            
+                <input  id="fullname" 
+                        class="input" 
+                        type="text" 
+                        placeholder="Full name" 
+                        required>
+                
+                <input  id="phone" 
+                        class="input" 
+                        type="phone" 
+                        placeholder="Phone" 
+                        required>
+
+                <input  id="person" 
+                        class="input" 
+                        type="text" 
+                        placeholder="Number of people" 
+                        required>
+                
+                <textarea id="order" 
+                        class="input" 
+                        type="text" 
+                        cols="30" 
+                        rows="10" 
+                        placeholder="Order"></textarea> 
+                
+                <button id="add" class="btn" onclick="submit()">Book</button>
+            
+            
+        </section>
+
+        <section class="right">
+            <ul class="list-wrapper">
+              
+            </ul>
+        </section>
+    </main>
+
+
+    <script src="java/reserv.js"></script>
+</tr>	
+	</td>
+
+</table>
+
+
+</body>
+<div id="footer"> This web site was created to fullfil "Web technologies" module's requirements and does not represent actual company or service.00004022
+				</div>
+
+</html>

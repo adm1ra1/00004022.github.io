@@ -1,0 +1,115 @@
+
+
+
+#content img {
+float:right;
+padding:10px;
+}
+#content{
+	background-color:rgb(255, 255, 255, 0.7);
+	background-size: cover;
+	height:auto;
+	margin:100px;
+	padding:0px;
+}
+#content p{
+float:left;
+padding:20px;
+margin:0;
+width:500px;
+
+}
+#content hr{
+	clear:left;
+	border-width:5px;
+	border-color:red;
+	margin:;
+	overflow:auto;
+	background-color:blue;
+}
+
+
+
+
+/*-- content_r for resreving --*/
+
+#content_r img {
+float:right;
+padding:10px;
+}
+#content_r{
+	background:url("../images/bell.jpg") center no-repeat;
+	background-size: cover;
+	height: auto;
+	margin:100px;
+	padding:0px;
+}
+#content_r p{
+float:left;
+padding:20px;
+margin:0;
+width:350px;
+
+}
+#content_r hr{
+	clear:left;
+	border-width:5px;
+	border-color:red;
+	margin:;
+	overflow:auto;
+	background-color:blue;
+}
+
+
+
+
+
+
+
+
+
+/*--No repeat full background to web page--*/
+html { 
+  background: url(../images/about.jpg) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+table {
+width:1200px;      /*width of table*/
+margin:auto;  /*equal margins = another way to center element*/
+   }
+
+
+
+#header
+{  
+    padding:20px;
+	margin:10px;
+}
+	
+#footer{
+	background-color:grey;
+	margin:10px;
+	padding:10px;
+	text-align:center;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

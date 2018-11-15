@@ -1,0 +1,52 @@
+/* Navigation formatting */
+.dropdown-content {
+	display: none;
+	
+	/* take menu out of document flow and place it above other elements */
+	position: absolute;
+z-index: 1;
+
+min-width: 180px;
+background-color: black;
+box-shadow: 0 0 0.5em lightgray;
+}
+.dropdown:hover .dropdown-content {
+/* show dropdown menu when hovered */
+display: block;
+}
+.dropdown-link:after {
+	/* make dropdown link obvious - show 
+	downward arrow to indicate hidden content */
+	content: "v";
+	margin-left: 0.5em;
+}
+
+
+#navigation{
+	background-color:black;
+	margin:10px;
+}
+
+#navigation ul{
+overflow:hidden;
+margin:10;
+padding:0;
+}
+
+#navigation li{
+float:left;
+display:inline;
+width:25%;
+
+}
+
+#navigation li a{
+display:block;
+padding:10px;
+text-align:center;
+color:white;
+}
+
+#navigation li a:hover{
+background-color:grey;
+}
